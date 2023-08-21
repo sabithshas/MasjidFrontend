@@ -1,0 +1,112 @@
+/* .cont{
+    background-color: rgb(235, 235, 249);
+  
+} */
+
+.masjidheading{
+    font-size: 60px;
+    color: gray;
+    text-align: center;
+
+}
+.MasjidHeading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.Hrline{
+    width: 600px;
+    margin-left: 450px;
+    /* margin-top: 100px; */
+}
+.HR{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.Masjidform{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.formss{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.tablerow{
+    display: table-row;
+    
+}
+.tablecells{
+    display: table-cell;
+    
+}
+.masjidinput{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.formbutton{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+button{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(105, 105, 239);
+    color: white;
+    border-radius: 20%;
+    font-size: 15px;
+}
+.sellect{
+    width: 260px;
+    height: 40px;
+    border: solid 1px rgb(248, 176, 176);
+    font-size: 18px;
+}
+.inputbox{
+    width: 260px;
+    height: 40px;
+    /* background-color: antiquewhite; */
+    border: solid 1px rgb(248, 176, 176);
+    font-size: 18px;
+}
+.labels{
+    font-family:' Verdana, Geneva, Tahoma, sans-serif';
+    font-size: 25px;
+}
+.description{
+    border: solid 1px rgb(248, 176, 176);
+    font-size: 18px;
+}
+@media only screen and (max-width: 460px) {
+    .masjidheading{
+        padding-left: 20px;
+        font-size: 40px;
+    }
+    .Hrline{
+        width: 410px;
+    }
+    .labels{
+        font-size: 15px;
+    }
+    .inputbox{
+        width:180px;
+    }
+    .sellect{
+        width: 180px;
+    }
+    .description{
+        width: 180px;
+    }
+    .masjidinput{
+        padding-left: 50px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .Hrline{
+        width: 300px;
+    }
+}
