@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Masjidform from './pages/Masjidform';
 import Topbar from './components/Topbar';
+import { BrowserRouter } from 'react-router-dom';
 import Masjidlist from './pages/Masjidlist';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -22,11 +23,14 @@ function App() {
     
   return (
     <>
+    <BrowserRouter>
+      <Topbar/>
     <Routes>
       <Route path='register' element={<Masjidform/>}></Route>
-      <Route path='topbar' element={<Topbar/>}></Route>
       <Route path='/' element={<Masjidlist/>}></Route>
+      <Route path='*' element={<h1>Page Not Found</h1>}></Route>
     </Routes>
+    </BrowserRouter>
     </>
    
   );

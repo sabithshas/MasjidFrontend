@@ -91,7 +91,7 @@ function Masjidform() {
   return (
 
     <>
-    <Topbar/>
+    {/* <Topbar/> */}
     <Container fluid className='cont'>
       <Row>
         <Col className='MasjidHeading' ><h1 className='masjidheading'>Masjid Registration</h1></Col>

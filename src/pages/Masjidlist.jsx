@@ -44,7 +44,7 @@ function Masjidlist() {
    
     return (
         <>
-            <Topbar />
+            {/* <Topbar /> */}
             <h3 className='marginlisthead'>List Of Masjids</h3>
             <div className='containercard'>
                 {masjiddata?.map((i) => {
